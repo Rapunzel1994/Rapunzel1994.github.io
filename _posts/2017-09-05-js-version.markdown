@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      "第一篇部落格"
-subtitle:   " \"Hello World, Hello Blog\""
-date:       2017-09-05 17:32:00
+subtitle:   "Hello World, Hello Blog"
+date:       2017-09-05
 author:     "Coco"
 header-img: "img/post-bg-2015.jpg"
 tags:
