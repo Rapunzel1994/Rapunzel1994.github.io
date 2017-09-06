@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Portfolio" 
+description: "My Work"
+header-img: "img/about-bg.jpg"
+---
 # Hux blog 模板
 
 ### [我的博客在这里 &rarr;](http://huxpro.github.io)
