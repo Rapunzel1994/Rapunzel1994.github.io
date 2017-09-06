@@ -1,6 +1,6 @@
 # Site settings
-title: Your Blog
-SEOTitle: 落花無意 | Your Blog
+title: D.F
+SEOTitle: 落花無意 | 落花無意
 header-img: img/home-bg.jpg
 email: coco830514@gmail.com
 description: ""
@@ -49,7 +49,7 @@ kramdown:
 # Duoshuo settings
 duoshuo_username: Coco
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+duoshuo_share: false                   # set to false if you want to use Comment without Sharing
 
 
 

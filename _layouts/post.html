@@ -49,7 +49,7 @@ layout: default
 
 				{{ content }}
 
-                <hr>
+                <!--<hr>-->
 
                 {% if site.duoshuo_share && site.duoshuo_username %}
                 <!-- 多说 Share start -->
@@ -63,6 +63,10 @@ layout: default
                     data-content="{{ content | strip_html | truncate:80 }} | {{ site.SEOTitle }} " >
                     <div class="ds-share-inline">
                       <ul  class="ds-share-icons-16">
+					    <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>
+                        <li><a class="ds-wechat flat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+                        <li><a class="ds-weibo flat" href="javascript:void(0);" data-service="weibo">微博</a></li>
+                        <li><a class="ds-douban flat" href="javascript:void(0);" data-service="douban">豆瓣</a></li>
                       </ul>
                       <div class="ds-share-icons-more">
                       </div>
@@ -108,6 +112,7 @@ layout: default
                 {% endif %}
 
             </div>
+			
 
     <!-- Sidebar Container -->
             <div class="
