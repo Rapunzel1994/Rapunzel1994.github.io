@@ -1,5 +1,6 @@
 ---
 layout:     post
+comments: true
 title:      "第三篇部落格"
 subtitle:   "Hello World, Hello Blog"
 date:       2017-09-05 23:59:59
@@ -14,4 +15,5 @@ tags:
 ## 前言
 
 終於搞懂了。
-希望以後能有個地方可以分享。
+希望以後能有個地方可以分享。  
+回應框測試

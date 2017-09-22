@@ -1,5 +1,6 @@
 ---
 layout:     post
+comments: true
 title:      "永山"
 subtitle:   "莫道人知"
 date:       2017-09-10 17:32:00
