@@ -1,5 +1,5 @@
 ---
-layout:     post
+layout:     Hide
 comments: true
 title:      "永山"
 subtitle:   "莫道人知"
