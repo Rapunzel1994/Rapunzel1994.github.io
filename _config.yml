@@ -5,7 +5,7 @@ header-img: img/index-bg.jpg
 email: coco830514@gmail.com
 description: "閱讀使我開闊，旅行使我富足"
 keyword: ""
-url: "https://rapunzel1994.github.io/"  # your host, for absolute URL
+url: "http://rapunzel1994.github.io"  # your host, for absolute URL
 baseurl: "/Rapunzel1994.github.io"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
