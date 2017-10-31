@@ -5,7 +5,7 @@ header-img: img/index-bg.jpg
 email: coco830514@gmail.com
 description: "閱讀使我開闊，旅行使我富足"
 keyword: ""
-url: "http://rapunzel1994.github.io"  # your host, for absolute URL
+url: "https://rapunzel1994.github.io"  # your host, for absolute URL
 baseurl: "/Rapunzel1994.github.io"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -36,7 +36,7 @@ gems: [jekyll-paginate]
 # Markdown settings
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
+# document: https://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
