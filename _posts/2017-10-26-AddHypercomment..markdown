@@ -68,45 +68,29 @@ tags:
 那麼，要怎麼在部落格裡加入 Hypercomments呢?
 
 1.  首先，你必須要有一個Google帳號  
-因為 Hypercomments是靠google帳號登入，所以你必須要有一個google帳號
-點擊右上角的log in登入  
+因為 Hypercomments是靠Google帳號登入，所以你必須要有一個Google帳號，點擊右上角的Log In登入
+![](https://images.plurk.com/7dZ9XaDN3Lchm2qCG4qQ.jpg)
 
-2.  選擇方案
+2.  選擇方案  
 登入後會自動跳轉到選擇方案的介面，可以選擇第一種(免費版)，點擊下面的install  
+![](https://images.plurk.com/30U5oPqEOmEWL2rrG4qQ.jpg)
 
-3.  連結你的網頁
-填入你要使用的網頁URL，像我的是：https://rapunzel1994.github.io
+3.  連結你的網頁  
+填入你要使用的網頁URL，像我的是：`https://rapunzel1994.github.io`  
 注意這邊他可能會幫你在URL的尾巴多加一個斜線"/"，而我第一次建立時因為這個"/"連結失敗了，小伙伴們可能要注意一下(如果不小心創錯的話是可以刪除的，後面會再介紹)
 然後選擇你的部落格類型，在這裡我直接選擇HTML
 完成後就前往下一步  
+![](https://images.plurk.com/4qQ2SXj6C7VJGuYFG4qQ.jpg)
 
-4.  嵌入代碼
-連結成功後 Hypercomments會給你一串程式碼
-直接複製整串代碼到你想放置回應欄的地方，如果你跟我使用同個模版的話，是放在_layout/post裡，位置就看你的排版了
-別複製我的，複製 Hypercomments給你的阿!
+4.  嵌入代碼  
+連結成功後，Hypercomments會給你一串程式碼，直接複製整串代碼到你想放置回應欄的地方，如果你跟我使用同個模版的話，是放在_layout/post裡，位置就看你的排版了。  
 程式碼弄丟沒關係，在後台裡的setting/widget/code裡面就有喔~
+![](https://images.plurk.com/5q8ZHFsBsUXmYwOHG4qQ.jpg)
 
-		<div id="hypercomments_widget"></div>
-			<script type="text/javascript">
-				_hcwp = window._hcwp || [];
-				_hcwp.push({widget:"Stream", widget_id: xxxxx});
-				(function() {
-				if("HC_LOAD_INIT" in window)return;
-				HC_LOAD_INIT = true;
-				var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
-				var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
-				hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/97017/"+lang+"/widget.js";
-				var s = document.getElementsByTagName("script")[0];
-				s.parentNode.insertBefore(hcc, s.nextSibling);
-				})();
-			</script>
-		<a href="http://hypercomments.com" rel = "nofollow" class="hc-link" title="comments widget">comments powered by HyperComments</a>
-
-另外，最後一行
-
-	<a href="http://hypercomments.com" rel = "nofollow" class="hc-link" title="comments widget">comments powered by HyperComments</a>
+另外，最後一行  
+`<a href="http://hypercomments.com" rel = "nofollow" class="hc-link" title="comments widget">comments powered by HyperComments</a>`
 	
-這行會造成在load回應欄的時後出現 Hypercomments的連結，如果不需要的話可以刪掉
+這行會造成在load回應欄的時後出現 Hypercomments的連結，如果不需要的話可以刪掉。
 
 Hypercomments 給的程式碼裡有一行
 
